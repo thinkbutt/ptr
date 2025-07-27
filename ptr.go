@@ -14,4 +14,3 @@ func Deref[T any](t *T) T {
 func From[T any](t T) *T {
 	return &t
 }
-
